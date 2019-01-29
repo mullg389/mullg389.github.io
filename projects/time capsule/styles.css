@@ -1,11 +1,24 @@
 
 html{
-    background: black;
-}
+    background-image: url ("11.jpg");
+    background-size: 250px 350px;
+    background color: black;
+} 
 body{
       width:85%;
       font-family: 'Cormorant Garamond', serif;
       font-size: 45px;
       color: white
+
 }
+
+/*Images*/
+img {
+width: auto;
+height: 100%;
+max-height:700px;
+}
+
+
+
 

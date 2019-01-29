@@ -1,0 +1,11 @@
+body {
+	background: black;
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Images*/
+img{
+	max-width: 600px;
+    max-height: 700px;
+}
