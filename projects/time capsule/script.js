@@ -16,7 +16,7 @@ var number3 = document.getElementById("3");
 number3.onclick = function(){
     console.log("click3");
     this.style.color="white";
-    document.getElementById("content").innerHTML ='<br><img src="3.jpg"></br>'
+    document.getElementById("content").innerHTML ='<br><img src="3.jpeg"></br>'
  }   
 
 var number4 = document.getElementById("4");
@@ -58,7 +58,7 @@ number8.onclick = function(){
 number9.onclick = function(){
     console.log("click9");
     this.style.color="white";
-    document.getElementById("content").innerHTML ='<br><img src="9.jpg"></br>'
+    document.getElementById("content").innerHTML ='<br><img src="9.jpeg"></br>'
  }  
 
  var number10 = document.getElementById("10");
