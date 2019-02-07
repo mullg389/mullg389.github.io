@@ -1,0 +1,37 @@
+
+html{
+    background color: black;
+   } 
+body{
+      
+      font-family: 'Raleway', sans-serif;
+      font-size: 45px;
+      color: white
+      background color: black;
+    }
+
+/*Images*/
+img {
+height: 100%;
+max-height:700px;
+
+ }
+.emotional {
+  color: red;
+}
+.singersongwriter {
+  color: yellow;
+}
+.Rap {
+  color: green;
+}
+. {
+  color: orange;
+}.Hype {
+  color: blue;
+}.Pop {
+  color: purple;
+}
+.HipHop {
+  color: pink;
+}
