@@ -1,7 +1,11 @@
 body {
-	background: azure;
+	background: blue;
 	color: black;
-	font-family: californian-fb-display, serif;
-    font-weight: 400;
+	font-family: 'Fahkwang', sans-serif; 
+    font-weight: 400px;
     font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
