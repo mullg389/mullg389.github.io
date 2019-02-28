@@ -19,60 +19,111 @@ body {
 
 
 .table{
-position: absolute:
-top: 280px;
-left:200px;
-width: 600px;
-height: 300px;
+position: absolute;
+top: 60%;
+left:20%;
+width: 65%;
+height: 50%;
 background: dimgray;
 transform:skewX(-40deg);
 }
 
+.book{
+top: 60%;
+left: 45%;
+width: 100%
+height: 100%;
+z-index: 3;
+}
 
 .book-top{
-position: absolute:
-top: ;
-left: ;
-width: ;
-height:  ;
+position: relative;
+top: 50%;
+left: 35%;
+width: 10%;
+height:25%;
 background:gainsboro;
-transform:
+z-index: 3;
+
 }
 .book-middle{
-position: absolute:
-margin-top: ;
-margin-left:;
-width: ;
-height: ;
-background: ;
+position: relative;
+top: 60% ;
+left: 35%;
+width:5%;
+height:20%;
+background-color:blue;
+z-index: 3;
 }
 
-.book-bottom{
-position: absolute:
-top: ;
-left:;
-width: ;
-height: ;
-background: ;
-}
+
 
 .vase{
-position: :
-top: ;
-left:;
-width:;
-height:;
-background: ;
+position: absolute;
+top: 50% ;
+left: 45%;
+width:5%;
+height: 18%;
+background:lightblue;
+z-index: 3;
 }
 
 .flower{
-position: absolute:
-top: ;
-left:;
-width: ;
-height: ;
-background: ;
+position: absolute;
+top: 50%;
+left:45%;
+width:5%;
+height:7%;
+border-radius: 100%;
+background-color: mediumvioletred;
+z-index: 3;
 }
+.flower-2{
+position: absolute;
+top: 55%;
+left:45%;
+width:5%;
+height:10%;
+border-radius: 100%;
+background-color: mediumvioletred;
+z-index: 3;
+
+
+
+}
+.orange-1{
+position: relative;
+top:45%;
+left:50%;
+width:5%;
+height:5%;
+border-radius: 100%;
+background-color: orange;
+z-index: 3;
+}
+.orange-2{
+position: relative;
+top:40%;
+left:55%;
+width:5%;
+height:5%;
+border-radius: 100%;
+background-color: orange;
+z-index: 3;
+}
+.orange-3{
+position: relative;
+top:35%;
+left:60%;
+width:5%;
+height:5%;
+border-radius: 100%;
+background-color: orange;
+z-index: 3;
+}
+
+
+
 
 
 
