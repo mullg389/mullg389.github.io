@@ -30,8 +30,8 @@
  .circle {
       width: 100px;
       height: 100px;
-     background: rgb(2,0,36);
-      background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(255,124,236,1) 34%, rgba(85,183,249,1) 46%);
+      background: rgb(255,177,96);
+      background: linear-gradient(90deg, rgba(255,177,96,1) 0%, rgba(255,164,0,1) 44%, rgba(230,30,30,1) 100%);
       border-radius: 50%;
       margin-left:10%;
       margin-top: 50%;
@@ -43,8 +43,8 @@
    .circle2 {
       width: 100px;
       height: 100px;
-      background: rgb(2,0,36);
-      background: linear-gradient(90deg, rgba(2,0,36,1) 24%, rgba(230,102,30,1) 27%, rgba(255,149,124,1) 30%, rgba(85,183,249,1) 34%);
+      background: rgb(198,96,255);
+      background: linear-gradient(90deg, rgba(198,96,255,1) 0%, rgba(255,0,196,1) 44%, rgba(230,30,30,1) 100%);
       border-radius: 50%;
       margin-left:90%;
       margin-top: 50%;
@@ -54,6 +54,17 @@
 
     }
 
+.circle3 {
+      width: 100px;
+      height: 100px;
+      background: rgb(207,255,96);
+      background: linear-gradient(90deg, rgba(207,255,96,1) 0%, rgba(11,138,33,1) 44%, rgba(30,230,169,1) 100%);
+      border-radius: 50%;
+      margin-left:20%;
+      margin-top: 50%;
+      margin-right:auto;
+      transform: rotate(25deg);
+      animation: spintype 7s ease-in-out infinite alternate;
 
  
 @keyframes spintype {
@@ -72,7 +83,9 @@ height:100px;
 height:100px;
 }
 
-
+#circle3{
+height:100px;
+}
 
 
 

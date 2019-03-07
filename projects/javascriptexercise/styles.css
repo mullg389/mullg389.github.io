@@ -1,0 +1,10 @@
+body {
+  background: lightsalmon;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+    font-weight: 500px;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
