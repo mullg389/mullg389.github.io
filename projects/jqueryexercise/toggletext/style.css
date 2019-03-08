@@ -1,0 +1,35 @@
+/* Your styles go here */
+body{
+background: white;
+text-align: center;
+}
+
+.button{
+
+ background:white;
+ font-size: 2em; 
+ margin-top: center;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ color: black;
+ padding: 10px 20px;
+ font-family: sans-serif;
+ display: inline-block;
+ border: 2px solid black;
+ cursor: pointer;
+}
+
+.text{
+display: none;
+background:white;
+font-size: 6em;
+font-family: sans-serif;
+ text-align: center;
+ color: black;
+ position: absolute;
+}
+
+.text.active {
+display: block;
+}

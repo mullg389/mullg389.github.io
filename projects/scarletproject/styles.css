@@ -1,18 +1,36 @@
+.h1{
+margin: auto;
+font-family: helvetica neue, sans-serif;
+text-align: center;
+font-size: 50px;
+}
 
     body {
     font-family: helvetica neue, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 50px;
+    text-align: center;
     width: 100%;
     height: 100%;
+    margin: auto; 
 }
-
+.title{
+font-family: helvetica neue, sans-serif;
+text-align: center;
+font-size: 25px;
+}
 
 .container {
     width: 100%;
     height: 100%;
     margin: auto;
     overflow: hidden;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
 }
+
+
 
