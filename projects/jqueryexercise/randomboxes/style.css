@@ -1,1 +1,42 @@
+body{
+  text-align: center;
+}
+
+.box{
+  font-family: sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  justify-content: center;
+  border: solid 1px purple;
+  padding: 5px 10px;
+  margin-top: 2%;
+  cursor: pointer;
+  color: purple;
+
+}
+
+.boxes{
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 50px;
+  display: flex;
+  color: purple;
+  justify-content: space-around;
+}
+
+.one{
+  border: solid 2px purple;
+  padding: 30px 40px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  line-height: 150px;
+}
+
+.one.active{
+  background: purple;
+  color: white;
+
+}
+
 /* Your styles go here */

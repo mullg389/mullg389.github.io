@@ -1,1 +1,16 @@
 /* Your styles go here */
+img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 10px;
+    display: none;
+}
+
+body{
+    font-size:40px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    background-color: deepskyblue;
+    align-content: center;
+    

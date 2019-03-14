@@ -1,1 +1,9 @@
+body {
+    height:2000px;
+    align-content: center;
+    font-size: 250px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: skyblue;
+}
 /* Your styles go here */

@@ -1,1 +1,16 @@
 /* Your styles go here */
+body {
+    height:2000px;
+    align-content: center;
+    font-size: 250px;
+    font-family: sans-serif;
+    background-color: olivedrab;
+    color: white;
+}
+/* Your styles go here */
+.hayley{
+margin: auto;
+position: absolute;
+height: 150px;
+width: 100px;
+}
