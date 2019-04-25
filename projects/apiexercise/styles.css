@@ -1,0 +1,83 @@
+
+
+html {
+  background-size: 250px 350px;
+  background-repeat:no-repeat;
+  background color: orange;
+  
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 200px;
+} 
+
+
+
+.image1 {
+      
+      width: 300px;
+      height: 300px;
+      padding: 5px;
+      position: absolute;
+      margin-top:45%;
+      transform: rotate(25deg);
+      animation: spintype 7s ease-in-out infinite alternate;
+      z-index: 2;
+   }
+
+   .image2 {
+      width: 300px;
+      height: 300px;
+      margin-left: 25%;
+      margin-top:45%;
+      padding:5px;
+      position: absolute;
+      transform: rotate(25deg);
+      animation: spintype 7s ease-in-out infinite alternate;
+
+    }
+
+.image3 {
+      width: 300px;
+      height: 300px;
+       margin-left:50%;
+      margin-top:45%;
+      padding:5px;
+      position: absolute;
+      transform: rotate(25deg);
+      animation: spintype 7s ease-in-out infinite alternate;
+
+ }
+ .image4 {
+      width: 300px;
+      height: 300px;
+      margin-left: 75%;
+      margin-top:45%;
+      padding:5px;
+      position: absolute;
+      transform: rotate(25deg);
+      animation: spintype 7s ease-in-out infinite alternate;
+    }
+
+@keyframes spintype {
+  0% {
+  transform: rotate(0turn);
+  }
+  100% {
+  transform: rotate(1turn);
+  }
+
+#image1{
+height:400px;
+}
+
+#image2{
+height:400px;
+}
+
+#image3{
+height:400px;
+}
+
+#image4{
+height:400px;
+}

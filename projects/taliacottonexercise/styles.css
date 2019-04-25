@@ -1,0 +1,46 @@
+html{
+    
+ /*   background-size: 350px 450px;
+    background-repeat:no-repeat;
+    background color: white;
+    background-size: cover;*/
+} 
+body{
+      width:85%;
+      font-family: 'Coda Caption', sans-serif;
+      height: 100%;
+} 
+
+
+#name{
+      font-family: 'Coda Caption', sans-serif;
+      font-size: 250px;
+      color: rgb(255,255,255);
+      background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,248,1) 0%, rgba(255,0,198,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      text-align: center;
+      width: 100%;
+      margin-top: 12%;     
+      z-index: 2;
+      line-height:1;
+}
+
+
+.location{
+font-family: 'Coda Caption', sans-serif;
+font-size: 150px;
+color: rgb(66,163,18);
+background: -webkit-linear-gradient(0deg, rgba(66,163,18,1) 0%, rgba(70,143,33,1) 0%, rgba(209,255,205,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-top: 2%;     
+line-height:1;
+}
+
+
+
+
+

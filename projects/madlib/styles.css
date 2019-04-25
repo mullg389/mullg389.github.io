@@ -1,0 +1,35 @@
+
+
+ body{
+
+background-color: red;
+text-align: center;
+font-family: 'Inconsolata', monospace;
+color: white;
+font-size: 40px;
+align-items: center;
+align-content:center;
+} 
+
+p{
+font-family: 'Inconsolata', monospace;
+font-size: 40px;
+color: white;
+background-color: red;
+text-align: center;
+width: 1000px;
+}
+
+
+.button {
+font-family: 'Inconsolata', monospace;
+font-size: 100px;
+background-color: red;
+color: white;
+margin-bottom: 70px;
+margin-top: 70px;
+width: 300px;
+border:6px solid white;
+padding: 10px;
+align-self: baseline;
+}
