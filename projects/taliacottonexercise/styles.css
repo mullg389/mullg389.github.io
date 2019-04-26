@@ -22,7 +22,7 @@ body{
       position: relative;
       text-align: center;
       width: 100%;
-      margin-top: 12%;     
+      margin-top: 15%;     
       z-index: 2;
       line-height:1;
 }
@@ -36,10 +36,20 @@ background: -webkit-linear-gradient(0deg, rgba(66,163,18,1) 0%, rgba(70,143,33,1
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 text-align: center;
-margin-top: 2%;     
+margin-top: 5%;     
 line-height:1;
 }
 
+.time{
+font-family: 'Coda Caption', sans-serif;
+font-size: 50px;
+color: rgb(0,219,255);
+background: -webkit-linear-gradient(0deg, rgba(0,219,255,1) 0%, rgba(0,117,182,1) 0%, rgba(150,226,255,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-top: 1%;     
+line-height:1;
 
 
 
