@@ -1,0 +1,81 @@
+
+ 
+body{
+      width:85%;
+      font-family: "DrukWide-Medium", Helvetica, Arial, sans-serif;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+      height: 100%;
+      align-content: center;
+      background-image: url("1.gif"), url("1.gif");
+      background-color: #cccccc;
+       background-size: 350px 450px;
+    background-repeat:no-repeat;
+    background color: white;
+    background-size: cover;
+}
+
+  @keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+  0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}  
+    
+#marquee1{
+      font-family: "DrukWide-Medium", Helvetica, Arial, sans-serif;
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+      font-size: 150px;
+      color: rgb(0,219,255);
+      background: -webkit-linear-gradient(0deg, rgba(0,219,255,1) 0%, rgba(0,117,182,1) 0%, rgba(150,226,255,1) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      position: relative;
+      text-align: right;
+      width: 100%;
+      margin-top: 5%;     
+      z-index: 2;
+      animation: marquee 14s linear infinite;
+      }
+
+
+.marquee2{
+ font-family: "DrukWide-Medium", Helvetica, Arial, sans-serif;
+letter-spacing: 0.01em;
+line-height: 1.2;
+font-size: 160px;
+color: rgb(255,79,0);
+background: linear-gradient(0deg, rgba(255,79,0,1) 11%, rgba(255,174,28,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+justify-content: center;
+margin-top: 1%;  
+animation: marquee 16s linear infinite;
+  animation-direction: reverse;   
+
+}
+
+
+
+.marquee3{
+font-family: "DrukWide-Medium", Helvetica, Arial, sans-serif;
+letter-spacing: 0.01em;
+/*line-height: 1.2;*/
+font-size: 150px;
+color: rgb(0,219,255);
+background: -webkit-linear-gradient(0deg, rgba(0,219,255,1) 0%, rgba(0,117,182,1) 0%, rgba(150,226,255,1) 100%);
+ -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: left;
+margin right: 60%;
+margin-top: 1%;  
+animation: marquee 14s linear infinite;   
+}
+
+
+
+
+

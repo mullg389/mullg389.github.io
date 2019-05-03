@@ -9,9 +9,9 @@ body{
       width:85%;
       font-family: 'Coda Caption', sans-serif;
       height: 100%;
-} 
-
-
+      align-content: center;
+    } 
+    
 #name{
       font-family: 'Coda Caption', sans-serif;
       font-size: 250px;
@@ -50,6 +50,8 @@ background: -webkit-linear-gradient(0deg, rgba(0,219,255,1) 0%, rgba(0,117,182,1
 text-align: center;
 margin-top: 1%;     
 line-height:1;
+}
+
 
 
 
