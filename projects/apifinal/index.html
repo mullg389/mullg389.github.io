@@ -4,673 +4,436 @@
 <head>
   <title>Photo Series</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
- <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="main.js"></script>
 </head>
 <body>
+
+  <div class="button">
+    <input class="play-button" type="button" value="PLAY">
+    <audio id="audio" src="song.mp3" ></audio>
+
+  </div>
+<!-- <div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div> -->
+
 <div class="images">
 
- <div class = "image1 picture">
-    <img src="1.jpg">
-      </div>
-
-
-  <div class = "image2 picture">
-     <img src="2.jpg">
-     </div>
-
-
-
-    
-      <div class = "image3 picture">
-        <img src="3.jpg" >
-     
-      </div>
-
-
-
- 
-      <div class = "image1 picture">
-        <img src="4.jpg">
-   
-      </div>
-
-
-     <div class = "image2 picture">
+<!-- ______________________________________________________________ -->
       
-        <img src="5.jpg">
+       <!-- ROW 1  -->
        
-      </div>
-
-      
-
-      <div class = "image3 picture">
-        <img src="6.jpg">
-       
-      </div>
-
-      
-      <div class = "image1 picture">
-        <img src="7.jpg">
-  
-      </div>
-
-
- <div class = "image2 picture">
-     
-        <img src="8.jpg">
-
-      </div>
-
-
-     <div class = "image3 picture">
-        <img src="9.jpg">
-   
-      </div>
-
- <div class = "image1 picture">  
-  <img src="10.jpg">
-    
-      </div>
-
-
-
- <div class = "image2 picture">
-     
-        <img src="11.jpg">
- </div>
-
-
-
-
-<div class = "image3 picture">
-     <img src="12.jpg">
-   
-      </div>
-
-
-
-
-<div class = "image1 picture">       
-        <img src="13.jpg">
-  
-      </div>
-
-
-  <div class = "image2 picture picture">
-       <img src="14.jpg">
-    
-      </div>
-
-
-        <div class = "image3 picture">
-        <img src="15.jpg">
-       
-      </div>
-
-
-
-    
-    <div class = "image1 picture">  
-        <img src="16.jpg">
-  
-      </div>
-
-
- <div class = "image2 picture">
-    
-     
-        <img src="17.jpg">
-     
-      </div>
-
-
-
-    <div class = "image3 picture">
-        <img src="18.jpg">
-    
-      </div>
-
-
-    
-   <div class = "image1 picture">   
-        <img src="19.jpg">
-    
-      </div>
-
-
- <div class = "image2 picture">
-
-    
-        <img src="20.jpg">
-       
-      </div>
-
- <div class = "image3 picture">
-        <img src="21.jpg">
-    
-      </div>
-
-<div class = "image1 picture">     
-        <img src="22.jpg">
- 
-      </div>
-
-
- <div class = "image2 picture">
-    
-      
-        <img src="23.jpg">
-   
-      </div>
-
-
-    <div class = "image3 picture">
-        <img src="24.jpg">
-        
-      </div>
-
-
-
-<div class = "image1 picture">   
-        <img src="25.jpg">
-     
-      </div>
-
-
-       <div class = "image2 picture">
-        <img src="26.jpg">
-       
-      </div>
-
-    
-        <div class = "image3 picture"> 
-        <img src="27.jpg">
-      
-      </div>
-
- 
-
-
-<div class = "image1 picture">     
-        <img src="28.jpg">
-      
-      </div>
-
-
-
- <div class = "image2 picture">
-      
-        <img src="29.jpg">
-    
-      </div>
-
-
-
-      <div class = "image3 picture">
-        <img src="30.jpg">
- 
-      </div>
-
-
-
-<div class = "image1 picture">      
-        <img src="31.jpg">
-   
-      </div>
-
-
-      <div class = "image2 picture">
-        <img src="32.jpg">
-     
-      </div>
-
-
-
-      <div class = "image3 picture">
-        <img src="33.jpg">
-      
-      </div>
-
-
-<div class = "image1 picture">     
-        <img src="34.jpg">
- 
-      </div>
-
-
-       <div class = "image2 picture">
-        <img src="35.jpg">
-      
-      </div>
-
-
-
-      <div class = "image3 picture">
-        <img src="36.jpg">
-
-      </div>
-
-
-
-<div class = "image1 picture">      
-        <img src="37.jpg">
-  
-      </div>
-
+<!-- ______________________________________________________________ -->
+  <div class="row" id="row1">
+    <!-- row 1 has a id so that you can invidivually change this row. Ex: making the opacity 0.4-->
+     <div class = "image1 picture1">
+      <!-- picture1 indicates that the photo will be on screen when you click it. The other two will appear to fade as they're under the class "picture", which is styled as "display: none;" -->
+      <img src="1.jpg">
+    </div>
 
     <div class = "image2 picture">
+     <img src="2.jpg">
+   </div>
+
+   <div class = "image3 picture">
+    <img src="3.jpg" >
+  </div>
+</div>
+
+
+<!-- ______________________________________________________________ -->
       
-        <img src="38.jpg">
- 
-      </div>
+       <!-- ROW 2  -->
+       
+<!-- ______________________________________________________________ -->
+<div class="row" id="row2">
+  <div class = "image4 picture1">
+    <img src="4.jpg">
+  </div>
+
+  <div class = "image5 picture">
+    <img src="5.jpg">
+  </div>
+
+  <div class = "image6 picture">
+    <img src="6.jpg">
+  </div>
+</div>
 
 
-     <div class = "image3 picture">
-        <img src="39.jpg">
-   
-      </div>
-
-
-
-<div class = "image1 picture">      
-        <img src="40.jpg">
-    
-      </div>
-
-
-
- <div class = "image2 picture">
+<!-- ______________________________________________________________ -->
       
-        <img src="41.jpg">
-       
-      </div>
-    
+       <!-- ROW 3  -->
+
+<!-- ______________________________________________________________ -->
+
+<div class="row" id="row3">
+  <div class = "image7 picture1">
+    <img src="7.jpg">
+  </div>
+
+  <div class = "image8 picture">
+    <img src="8.jpg">
+  </div>
+
+  <div class = "image9 picture">
+    <img src="9.jpg">
+  </div>
+</div>
 
 
 
-       <div class = "image3 picture "> 
-        <img src="42.jpg">
-       
-      </div>
-
-
-
-<div class = "image1 picture" >      
-        <img src="43.jpg">
-        
-      </div>
-
-
-
-       <div class = "image2 picture">
-        <img src="44.jpg">
-        
-      </div>
-
-
-
-     <div class = "image3 picture">
-        <img src="45.jpg">
-       
-      </div>
-
-
-
- <div class = "image1 picture">     
-        <img src="46.jpg">
-        
-      </div>
-     
-     <div class = "image2 picture">
-       
-        <img src="47.jpg">
-        
-      </div>
-
-
-<div class = "image3 picture">
-        <img src="48.jpg">
-       
-      </div>      
+<!-- ______________________________________________________________ -->
       
-      </div>
-  
- <div class = "image1 picture">     
-        <img src="49.jpg">
-        
-      </div>  
+       <!-- ROW 4  -->
 
+<!-- ______________________________________________________________ -->
+<div class="row" id="row4">
+  <div class = "image10 picture1">  
+    <img src="10.jpg">
+  </div>
 
-<div class = "image2 picture">
-       
-        <img src="50.jpg">
-        
-      </div>
+  <div class = "image11 picture">
+    <img src="11.jpg">
+  </div>
 
-
-
-<div class = "image3 picture">
-        <img src="51.jpg">
-       
-      </div> 
+  <div class = "image12 picture">
+   <img src="12.jpg">
+  </div>
+</div>
 
 
 
-<div class = "image1 picture">
-        <img src="52.jpg">
-       
-      </div> 
-
-
-
-<div class = "image2 picture">
-        <img src="53.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="54.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="55.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="56.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="57.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="58.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="59.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="60.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="61.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="62.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="63.jpg">
-       
-      </div> 
-
-
-
-<div class = "image1 picture">
-        <img src="64.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="65.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="66.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="67.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="68.jpg">
-       
-      </div> 
+<!-- ______________________________________________________________ -->
       
-<div class = "image3 picture">
-        <img src="69.jpg">
-       
-      </div> 
+       <!-- ROW 5  -->
 
-<div class = "image1 picture">
-        <img src="70.jpg">
-       
-      </div> 
+<!-- ______________________________________________________________ -->
+<div class="row" id="row5">
+<div class = "image13 picture1">       
+  <img src="13.jpg">
+</div>
+<div class = "image14 picture">
+ <img src="14.jpg">
+</div>
+<div class = "image15 picture">
+  <img src="15.jpg">
+   </div>
+</div>
+<!-- ______________________________________________________________ -->
+      
+       <!-- ROW 6 -->
 
-<div class = "image2 picture">
-        <img src="71.jpg">
-       
-      </div> 
+<!-- ______________________________________________________________ -->
 
-<div class = "image3 picture">
-        <img src="72.jpg">
-       
-      </div> 
+<div class="row" id="row6">
+<div class = "image16 picture1">  
+  <img src="16.jpg">
+  </div>
+<div class = "image17 picture">
+<img src="17.jpg">
+</div>
+<div class = "image18 picture">
+  <img src="18.jpg">
+</div>
+</div>
+ <!-- ______________________________________________________________ -->
+      
+       <!-- ROW 7 -->
 
-<div class = "image1 picture">
-        <img src="73.jpg">
-       
-      </div> 
+<!-- ______________________________________________________________ --> 
 
-<div class = "image2 picture">
-        <img src="74.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="75.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="76.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="77.jpg">
-       
-      </div> 
-<div class = "image3 picture">
-        <img src="78.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="79.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="80.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="81.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="82.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="83.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="84.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="85.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="86.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="87.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="88.jpg">
-       
-      </div>
-
-
-<div class = "image2 picture">
-        <img src="89.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="90.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="91.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="92.jpg">
-       
-      </div> 
-
-
-<div class = "image3 picture">
-        <img src="93.jpg">
-       
-      </div> 
-
-
-<div class = "image1 picture">
-        <img src="94.jpg">
-       
-      </div> 
-
-
-<div class = "image2 picture">
-        <img src="95.jpg">
-       
-      </div> 
-
-
-  <div class = "image3 picture">
-        <img src="96.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="97.jpg">
-       
-      </div>
-
-<div class = "image2 picture">
-        <img src="98.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="99.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="100.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="101.jpg">
-       
-      </div> 
-<div class = "image3 picture">
-        <img src="103.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="104.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="105.jpg">
-       
-      </div>
-
-<div class = "image1 picture">
-        <img src="106.jpg">
-       
-      </div> 
-
-<div class = "image2 picture">
-        <img src="107.jpg">
-       
-      </div> 
-
-<div class = "image3 picture">
-        <img src="108.jpg">
-       
-      </div> 
-
-<div class = "image1 picture">
-        <img src="109.jpg">
-       
-      </div> 
+<div class="row" id="row7">
+<div class = "image19 picture1">   
+  <img src="19.jpg">
+</div>
+<div class = "image20 picture">
+<img src="20.jpg">
+</div>
+<div class = "image21 picture">
+  <img src="21.jpg">
+</div>
+</div>
 
 
 
+<div class="row" id="row8">
+<div class = "image22 picture1">     
+  <img src="22.jpg">
+</div>
+<div class = "image23 picture">
+ <img src="23.jpg">
+</div>
+<div class = "image24 picture">
+  <img src="24.jpg">
+</div>
+</div>
+
+
+
+<div class="row" id="row9">
+<div class = "image25 picture1">   
+  <img src="25.jpg">
+</div>
+<div class = "image26 picture">
+  <img src="26.jpg">
+</div>
+</div>
+<div class = "image27 picture"> 
+  <img src="27.jpg">
+</div>
 </div>
 
 
 
 
+<div class="row" id="row10">
+<div class = "image28 picture1">     
+  <img src="28.jpg">
+</div>
+<div class = "image29 picture">
+<img src="29.jpg">
+</div>
+<div class = "image30 picture">
+  <img src="30.jpg">
+</div>
+</div> 
+
+
+
+
+<div class="row" id="row11">
+<div class = "image31 picture1">      
+  <img src="31.jpg">
+</div>
+<div class = "image32 picture">
+  <img src="32.jpg">
+</div>
+<div class = "image33 picture">
+  <img src="33.jpg">
+</div>
+</div> 
+
+
+
+<div class="row" id="row12">
+<div class = "image34 picture1">     
+  <img src="34.jpg">
+</div>
+<div class = "image35 picture">
+  <img src="35.jpg">
+</div>
+<div class = "image36 picture">
+  <img src="36.jpg">
+</div>
+</div> 
+
+
+
+
+<div class="row" id="row13">
+<div class = "image37 picture1">      
+  <img src="37.jpg">
+  </div>
+<div class = "image38 picture">
+<img src="38.jpg">
+</div>
+<div class = "image39 picture">
+  <img src="39.jpg">
+</div>
+</div> 
+
+
+
+<div class="row" id="row14">
+<div class = "image40 picture1">      
+  <img src="40.jpg">
+</div>
+<div class = "image41 picture">
+<img src="41.jpg">
+</div>
+<div class = "image42 picture "> 
+  <img src="42.jpg">
+</div>
+</div> 
+
+
+
+
+<div class="row" id="row15">
+<div class = "image43 picture1" >      
+  <img src="43.jpg">
+</div>
+<div class = "image44 picture">
+  <img src="44.jpg">
+</div>
+<div class = "image45 picture">
+  <img src="45.jpg">
+</div>
+</div> 
+
+
+
+
+
+<div class="row" id="row16">
+<div class = "image46 picture1">     
+  <img src="46.jpg">
+</div>
+<div class = "image47 picture">
+ <img src="47.jpg">
+</div>
+<div class = "image48 picture">
+  <img src="48.jpg">
+</div>      
+</div>
+
+
+
+
+<div class="row" id="row17">
+<div class = "image49 picture1">     
+  <img src="49.jpg">
+</div>  
+<div class = "image50 picture">
+<img src="50.jpg">
+</div>
+<div class = "image51 picture">
+  <img src="51.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row18">
+<div class = "image52 picture1">
+  <img src="52.jpg">
+</div> 
+<div class = "image53 picture">
+  <img src="53.jpg">
+</div> 
+<div class = "image54 picture">
+  <img src="54.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row19">
+<div class = "image55 picture1">
+  <img src="55.jpg">
+</div> 
+<div class = "image56 picture">
+  <img src="56.jpg">
+</div> 
+<div class = "image57 picture">
+  <img src="57.jpg">
+</div> 
+</div> 
+
+
+
+
+<div class="row" id="row20">
+<div class = "image58 picture1">
+  <img src="58.jpg">
+</div> 
+<div class = "image59 picture">
+  <img src="59.jpg">
+</div> 
+<div class = "image60 picture">
+  <img src="60.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row9">
+<div class = "image61 picture21">
+  <img src="61.jpg">
+</div> 
+<div class = "image62 picture">
+  <img src="62.jpg">
+</div> 
+<div class = "imagebella2 picture">
+ <img src="bella2.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row22">
+<div class = "image63 picture1">
+  <img src="63.jpg">
+</div> 
+<div class = "image64 picture">
+  <img src="64.jpg">
+</div> 
+<div class = "image65 picture">
+  <img src="65.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row23">
+<div class = "image66 picture1">
+  <img src="66.jpg">
+</div> 
+<div class = "image67 picture">
+  <img src="67.jpg">
+</div> 
+<div class = "image68 picture">
+  <img src="68.jpg">
+</div> 
+</div> 
+
+
+
+
+
+
+<div class="row" id="row24">
+<div class = "image69 picture1">
+  <img src="69.jpg">
+</div> 
+<div class = "image70 picture">
+  <img src="70.jpg">
+</div> 
+<div class = "image71 picture">
+  <img src="71.jpg">
+</div> 
+</div> 
+
+
+
+
+
+
+<div class="row" id="row25">
+<div class = "image72 picture1">
+  <img src="72.jpg">
+</div> 
+<div class = "image73 picture">
+  <img src="73.jpg">
+</div> 
+<div class = "image74 picture">
+  <img src="74.jpg">
+</div> 
+</div> 
 
 
 
@@ -678,6 +441,17 @@
 
 
 
+<div class="row" id="row26">
+<div class = "image75 picture1">
+  <img src="75.jpg">
+</div> 
+<div class = "image76 picture">
+  <img src="76.jpg">
+</div> 
+<div class = "image77 picture">
+  <img src="77.jpg">
+</div> 
+</div> 
 
 
 
@@ -685,13 +459,159 @@
 
 
 
+<div class="row" id="row27">
+<div class = "image78 picture1">
+  <img src="78.jpg">
+</div> 
+<div class = "image79 picture">
+  <img src="79.jpg">
+</div> 
+<div class = "image80 picture">
+  <img src="80.jpg">
+</div> 
+</div> 
 
 
 
 
 
 
+<div class="row" id="row28">
+<div class = "image81 picture1">
+  <img src="81.jpg">
+</div> 
+<div class = "image82 picture">
+  <img src="82.jpg">
+</div> 
+<div class = "image83 picture">
+  <img src="83.jpg">
+</div> 
+</div> 
 
 
- </body>
- </html>
+
+
+
+
+<div class="row" id="row29">
+<div class = "image84 picture1">
+  <img src="84.jpg">
+</div> 
+<div class = "image85 picture">
+  <img src="85.jpg">
+</div> 
+<div class = "image86 picture">
+  <img src="86.jpg">
+</div> 
+</div> 
+
+
+
+
+<div class="row" id="row30">
+<div class = "image87 picture1">
+  <img src="87.jpg">
+</div> 
+<div class = "image88 picture">
+  <img src="88.jpg">
+</div>
+<div class = "image89 picture">
+  <img src="89.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row31">
+<div class = "image90 picture1">
+  <img src="90.jpg">
+</div> 
+<div class = "image91 picture">
+  <img src="91.jpg">
+</div> 
+<div class = "image92 picture">
+  <img src="92.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row32">
+<div class = "image93 picture1">
+  <img src="93.jpg">
+</div> 
+<div class = "image94 picture">
+  <img src="94.jpg">
+</div> 
+<div class = "image96 picture">
+  <img src="96.jpg">
+</div> 
+</div> 
+
+
+
+
+<div class="row" id="row33">
+<div class = "image97 picture1">
+  <img src="97.jpg">
+</div>
+<div class = "image98 picture">
+  <img src="98.jpg">
+</div> 
+<div class = "image99 picture">
+  <img src="99.jpg">
+</div> 
+</div> 
+
+
+
+
+
+<div class="row" id="row34">
+<div class = "image101 picture1">
+  <img src="101.jpg">
+</div> 
+<div class = "image102 picture">
+  <img src="102.jpg">
+</div> 
+<div class = "imagechandler picture">
+  <img src="chandler.jpg">
+</div> 
+</div> 
+
+
+
+<div class="row" id="row35">
+<div class = "image104 picture1">
+  <img src="104.jpg">
+</div> 
+<div class = "image105 picture">
+  <img src="105.jpg">
+</div>
+<div class = "image106 picture">
+  <img src="106.jpg">
+</div> 
+</div> 
+
+
+
+
+<div class="row" id="row36">
+<div class = "image107 picture1">
+  <img src="107.jpg">
+</div> 
+<div class = "image108 picture">
+  <img src="108.jpg">
+</div> 
+<div class = "image109 picture">
+  <img src="109.jpg">
+</div> 
+</div> 
+</div>
+
+</body>
+</html>
