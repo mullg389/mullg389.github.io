@@ -1,0 +1,102 @@
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  background-color: pink;
+  color: white;
+  width: 40%;
+  padding: 5%;
+  top: 70%;
+  left: 30%;
+  text-align: center;
+  justify-content: center;
+
+}
+/*
+.simple:hover + a{
+  display: block;
+}
+
+.Broome:hover:after {
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed;
+}
+
+
+.Mulberry:hover:after  {
+  cursor: pointer;
+  font-size: 16px;
+   position: fixed;
+}
+
+
+.Grand:hover:after  {
+  cursor: pointer;
+  font-size: 16px;
+   position: fixed;
+}
+
+
+.Elizabeth:hover:after  {
+  cursor: pointer;
+  font-size: 16px;
+   position: fixed;
+}
+
+
+.Prince:hover:after  {
+  cursor: pointer;
+  font-size: 16px;
+   position: fixed;
+}
+
+
+.Houston:hover:after  {
+  cursor: pointer;
+  font-size: 16px;
+   position: fixed;
+}
+
+*/
+.images {
+width: auto;
+height: 100%;
+max-height:700px;
+display: block;
+    margin-left: 60%;
+    margin-right: auto }
+
+
+.item {
+background: pink;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+      margin-top: 15%;
+    /* max-width: 40%; */
+    max-height: 60%;
+    margin: 0 auto;
+    display: block;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.item-title {
+text-align: center;
+    z-index: 1000;
+    position: relative;
+    margin-left: 685px;
+    width: 30px;
+    margin-top: -200px;
+
+
+
+
